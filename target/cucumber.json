@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Check login functionality",
+        "description": "",
+        "id": "automate-amazon-website;check-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15797475900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser and enter url",
+            "match": {
+              "location": "Login.Launch_the_browser_and_enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5373661300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on Sign In button",
+            "match": {
+              "location": "Login.user_click_on_Sign_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1797554700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"9021866046\" and User enter \"9021866046\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9021866046",
+                  "offset": 12
+                },
+                {
+                  "val": "9021866046",
+                  "offset": 40
+                }
+              ],
+              "location": "Login.user_enter_and_User_enter(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197485300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Sign In button",
+            "match": {
+              "location": "Login.click_on_Sign_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3655158700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify login",
+            "match": {
+              "location": "Login.verify_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Select item and add to cart",
+        "description": "",
+        "id": "automate-amazon-website;select-item-and-add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3738445800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User serach the item",
+            "match": {
+              "location": "Login.user_serach_the_item()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1037819800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on item",
+            "match": {
+              "location": "Login.user_click_on_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9522833000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Add to cart",
+            "match": {
+              "location": "Login.add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Check your items add in cart",
+        "description": "",
+        "id": "automate-amazon-website;check-your-items-add-in-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3914222900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on cart button",
+            "match": {
+              "location": "Login.user_click_on_cart_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1208006700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify your item added to the cart",
+            "match": {
+              "location": "Login.verify_your_item_added_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76699600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Check quantity as per requirement",
+            "match": {
+              "location": "Login.check_quantity_as_per_requirement()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Buy Selected Item",
+        "description": "",
+        "id": "automate-amazon-website;buy-selected-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2792833700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Procced To Buy button",
+            "match": {
+              "location": "Login.user_click_on_Procced_To_Buy_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137105200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verify Address Details",
+            "match": {
+              "location": "Login.Verify_Address_Details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3981191300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on Deliver To Address button",
+            "match": {
+              "location": "Login.Click_on_Deliver_To_Address_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Make Payment for selected items",
+        "description": "",
+        "id": "automate-amazon-website;make-payment-for-selected-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click on Payment method",
+            "match": {
+              "location": "Login.user_click_on_Payment_method()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Add details for payment",
+            "match": {
+              "location": "Login.add_details_for_payment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click on continue button",
+            "match": {
+              "location": "Login.click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1800728200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Close Browser",
+            "match": {
+              "location": "Login.Close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Automate amazon website",
+    "description": "",
+    "id": "automate-amazon-website",
+    "keyword": "Feature",
+    "uri": "Amazon.feature"
+  }
+]
